@@ -161,7 +161,7 @@ MenuButton{
     -fx-font-weight: bold;
     -fx-background-radius: 200px, 200px, 200px, 200px;
     -fx-background-color: linear-gradient(#00FFFF, #33d6ff);
-    -fx-alignment: left;
+    -fx-alignment: center-left;
     -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
 
 }
@@ -176,7 +176,7 @@ MenuButton{
     -fx-background-radius: 200px, 200px, 200px, 200px;
     -fx-padding: 0.333333em 0.666667em 0.333333em 0.666667em; /* 4 8 4 8 */
     -fx-text-fill: -fx-text-base-color;
-    -fx-alignment: left;
+    -fx-alignment: center-left;
     -fx-content-display: LEFT;
 }
 
@@ -191,7 +191,7 @@ MenuButton{
     -fx-background-radius: 200px, 200px, 200px, 200px;
     -fx-padding: 0.333333em 0.666667em 0.333333em 0.666667em; /* 4 8 4 8 */
     -fx-text-fill: -fx-text-base-color;
-    -fx-alignment: left;
+    -fx-alignment: center-left;
     -fx-content-display: LEFT;
 }
 #btn_music {

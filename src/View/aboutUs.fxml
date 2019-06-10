@@ -37,7 +37,7 @@
               <Font name="Aharoni Bold" size="20.0"/>
           </font>
    </Text>
-       <Text layoutX="314.0" layoutY="291.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tomer live in kibbutz netzer Sereni" wrappingWidth="200" fill="#000000">
+       <Text layoutX="314.0" layoutY="291.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tomer live in kibbutz Netzer Sereni" wrappingWidth="200" fill="#000000">
            <effect>
                <DropShadow color="#777576" offsetX="1.0" offsetY="1.0" spread="0.75"  />
            </effect>
@@ -45,7 +45,7 @@
                <Font name="Aharoni Bold" size="16.0"/>
            </font>
        </Text>
-    <Text layoutX="75.0" layoutY="291.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Yaara lives in kibbutz maagan michael" wrappingWidth="200" fill="#000000">
+    <Text layoutX="75.0" layoutY="291.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Yaara lives in kibbutz Maagan Michael" wrappingWidth="200" fill="#000000">
         <effect>
             <DropShadow color="#777576" offsetX="1.0" offsetY="1.0" spread="0.75"  />
         </effect>
