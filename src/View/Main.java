@@ -3,6 +3,7 @@ package View;
 import Model.MyModel;
 import ViewModel.MyViewModel;
 import javafx.application.Application;
+import javafx.application.Platform;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
@@ -29,7 +30,7 @@ public class Main extends Application {
         MyViewModel viewModel = new MyViewModel(model);
         model.addObserver(viewModel);
         //--------------
-        primaryStage.setTitle("Savta Haya Meta");
+        primaryStage.setTitle("Operation Grandma");
 
 
         //create welcome scene
@@ -87,22 +88,6 @@ public class Main extends Application {
         });
 
 
-    }
-
-    private void SetScrollEvent(Stage stage, Scene scene) {
-        scene.setOnScroll(e -> {
-            if(e.isControlDown()){
-            double deltaY = e.getDeltaY();
-                if (deltaY > 0) { //zpoom in
-                    stage.setWidth(stage.getWidth() + 10);
-                    stage.setHeight(stage.getHeight() + 10);
-                } else { //zoom out
-                    stage.setWidth(stage.getWidth() - 10);
-                    stage.setHeight(stage.getHeight() - 10);
-                }
-            }
-
-        });
     }
 
     private void startMusic() {
